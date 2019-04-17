@@ -1,0 +1,24 @@
+.nav {
+	@apply list-none bg-blue-300 perf-fixed inset-x-0 bottom-0 h-screen flex flex-col justify-between py-6 items-center;
+
+	top: config('height.7');
+	height: calc(config('height.1vh') * 100 - config('height.7'));
+}
+
+@screen sm {
+	.nav {
+		@apply py-8;
+	}
+}
+
+@screen md {
+	.nav {
+		@apply flex-row ml-auto relative bg-transparent h-auto top-0  py-0;
+	}
+}
+
+@screen lg {
+	.nav {
+		@apply mr-8;
+	}
+}
