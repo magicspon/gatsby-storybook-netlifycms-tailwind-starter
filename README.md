@@ -1,3 +1,1 @@
-# goodrootsworld.com
-
-Gatsby + NetlifyCMS
+# WIP
